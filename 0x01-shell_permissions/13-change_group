@@ -1,2 +1,2 @@
 #!/bin/bash
-pts chown school hello
+chgrp school hello
