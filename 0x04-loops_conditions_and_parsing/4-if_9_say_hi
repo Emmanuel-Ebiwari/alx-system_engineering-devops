@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# prints a string 10 times but displays a different
+# string at the 9th iteration
+
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 9 ]
+	then
+		echo -e "Best School\nHi"
+	fi
+	echo "Best School"
+	((i+=1))
+done
